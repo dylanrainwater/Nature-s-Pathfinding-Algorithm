@@ -1,7 +1,7 @@
 # Nature's-Pathfinding-Algorithm
 Pathfinding via a genetic algorithm
 
-Starts with an initial swarm of 1,000 black units who must get close to a green unit while avoiding yellow obstacles.
+Starts with an initial swarm of 1,000 black units who must get close to a green unit while avoiding yellow obstacles. As each generation progresses, the best performer will remain (highlighted in blue) in the next generation. The rest of the population will die off and be replaced by offspring. The parents of the offspring will be chosen with probability proportional to fitness. At the end of each generation, the population size is reduced by 15% until it reaches 100 units.
 
 # Fitness
 
